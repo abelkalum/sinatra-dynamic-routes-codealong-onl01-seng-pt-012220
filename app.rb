@@ -20,7 +20,6 @@ class App < Sinatra::Base
   end
   
   get "/multiply/:num1/:num2" do
-    if params[:operation] == "multiply"
       "#{@number_1*@number_2}"
     end
   end
