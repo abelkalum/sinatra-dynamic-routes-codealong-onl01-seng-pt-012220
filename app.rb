@@ -25,4 +25,5 @@ class App < Sinatra::Base
     if params[:operation] == "multiply"
       "#{@number_1*@number_2}"
    end
+  end
 end
