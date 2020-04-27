@@ -21,7 +21,6 @@ class App < Sinatra::Base
   
   get "/multiply/:num1/:num2" do
       "#{@number_1*@number_2}"
-    end
   end
 
 end
